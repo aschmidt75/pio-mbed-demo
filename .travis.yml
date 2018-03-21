@@ -39,5 +39,5 @@ install:
 
 script:
     - platformio run
-    - platformio test
+    - platformio test -e native
 

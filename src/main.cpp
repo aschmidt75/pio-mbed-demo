@@ -1,3 +1,5 @@
+#ifndef UNIT_TEST
+
 #include "mbed.h"
 
 
@@ -10,3 +12,5 @@ int main() {
   printf("Hello World\n");
 }
 
+
+#endif
