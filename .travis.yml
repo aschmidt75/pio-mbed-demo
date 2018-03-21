@@ -40,4 +40,5 @@ install:
 script:
     - platformio run
     - platformio test -e native
+    - platformio remote -a mbed-agent-1 run -t upload -e disco_l475vg_iot01a
 
